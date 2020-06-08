@@ -148,7 +148,7 @@ nconf.add('app', {type: 'file', file: config_app});
 
 // set app defaults
 var app_host = process.env.HOST || 'localhost';
-console.log("PORT: " + str(process.env.PORT))
+console.log("PORT: " + process.env.PORT)
 var app_port = process.env.PORT || 1234;
 
 // get the app configs and override if present
